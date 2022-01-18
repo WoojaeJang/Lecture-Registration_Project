@@ -39,7 +39,7 @@ public class LectureRegistraionProjectService {
 	}
 
 	// --- Get -----------------------------------------------------------------
-
+	
 	// Get All
 	public ArrayList<LectureRegistraionProject> getProjectAll() {
 		return lectureRegistrationProjectList;
