@@ -44,7 +44,6 @@ public class StartView {
 		System.out.println("*** 02. 모든 수강정보 출력 ***");
 		controller.studentProjectsList();
 		
-		
 		System.out.println("*** 03. '해당과목' 강의 검색 ***");
 		//자료구조 검색
 		controller.getStudentProject("자료구조");
@@ -52,8 +51,6 @@ public class StartView {
 		System.out.println("*** 03. 오류상황 ***");
 		//예외 발생(없는 강의)
 		controller.getStudentProject("이산수학");
-		
-		
 		
 		System.out.println("*** 04. '해당 학생'의 수강정보를 변경 ***");
 	    //'이준석' 의 수강정보는 lecture4(보건학)으로 변경
@@ -63,8 +60,6 @@ public class StartView {
 		//예외 발생(없는 학생)
 		controller.studentToLectureUpdate("김혜경", lecture2);
 		
-		
-		
 		System.out.println("*** 05. '해당과목'의 교수명 변경 ***");
 		//자료 구조(채송화) -> 김독사
 		controller.lectureToProfessorUpdate("자료구조", professor4);
@@ -72,9 +67,6 @@ public class StartView {
 		System.out.println("*** 05. 오류상황 ***");
 		//예외 발생(교수가 존재하지 않음)
 		controller.lectureToProfessorUpdate("자료구조", null);
-		
-		
-		
 		
 		System.out.println("*** 06. '해당학생'의 수강정보 삭제 ***");
 		//'이준석' 의 수강정보 삭제
