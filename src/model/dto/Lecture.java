@@ -17,13 +17,13 @@ public class Lecture {
 	// 강의 교수 이름
 	private String lpid;
 	
-	// 강의 타입 (전공 / 교양)
+	// 강의타입 (전공 / 교양)
 	private String ltype;
 	
-	// 강의 시간
+	// 강의시간
 	private String ltime;
 	
-	// 강의 교실
+	// 강의교실
 	private String lclassroom;
 	
 	public Lecture() {
