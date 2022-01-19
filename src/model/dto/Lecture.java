@@ -9,7 +9,6 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class Lecture {
 	
 	// 강의번호
@@ -48,6 +47,7 @@ public class Lecture {
 		builder.append(classroom);
 		builder.append("]");
 		return builder.toString();
+		
 	}
 	
 }

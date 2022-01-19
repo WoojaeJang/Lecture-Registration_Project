@@ -9,7 +9,6 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class StudentCurriculumProject {
 	
 	// °­ÀÇID
@@ -43,6 +42,7 @@ public class StudentCurriculumProject {
 		builder.append(projectRegisterDay);
 		builder.append(" ");
 		return builder.toString();
+		
 	}
 	
 }
