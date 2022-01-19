@@ -6,8 +6,8 @@
 
 ### 프로젝트 구성원
 
-- <a href="https://github.com/WoojaeJang" target="_blank">김민준</a>
-- <a href="https://github.com/WoojaeJang" target="_blank">이준석</a>
+- <a href="https://github.com/mjkim8764" target="_blank">김민준</a>
+- <a href="https://github.com/JSL107" target="_blank">이준석</a>
 - <a href="https://github.com/WoojaeJang" target="_blank">장우재</a>
 
 <br>
